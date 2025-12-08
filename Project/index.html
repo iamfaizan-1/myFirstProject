@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.6-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ 
+    <!-- Header -->
+
+	<header class="header">
+
+		<!-- Top Bar -->
+
+		<div class="top_bar ">
+			<div class="container">
+				<div class="row">
+					<div class="col d-flex flex-row align-items-center">
+						<div class="phone">+92 3423422134</div>
+						<div class="social">
+							<ul class="social_list">
+								
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-linkedin"></i>
+                                
+							</ul>
+						</div>
+						<div class="user_box ">
+							<div class="user_box_login user_box_link"><a href="#">login</a></div>
+							<div class="user_box_register user_box_link"><a href="#">register</a></div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+
+		<!-- Main Navigation -->
+
+
+<nav class="navbar  main_nav navbar-expand-lg  navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+        <img src="https://static.vecteezy.com/system/resources/previews/019/136/319/non_2x/amazon-logo-amazon-icon-free-free-vector.jpg"   width="100" height="40"  alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">About Us</a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Services</a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+        </li>
+       
+        
+      </ul>
+      <form class="d-flex nav-form" role="search">
+        <input class="form-control " type="search" placeholder="Search" aria-label="Search"/>
+      
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+			</header>
+
+
+
+<div class="herosection">
+<!-- <div class="heroimg">
+
+</div> -->
+
+<!-- Hero Section - Fixed Height -->
+<section class="hero-section position-relative" style="height: 85vh; min-height: 600px; max-height: 800px;">
+  
+  <!-- Carousel Container -->
+  <div id="heroCarousel" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="5000">
+    
+    <!-- Carousel Items with Fixed Ratio -->
+    <div class="carousel-inner h-100">
+      
+      <!-- Slide 1 -->
+      <div class="carousel-item active h-100">
+        <div class="row h-100 g-0">
+          <!-- Image Column -->
+          <div class="col-12 h-100">
+            <div class="carousel-image-container h-100 w-100 position-relative">
+              <img src="./assets/2025_mercedes-benz_s-class_sedan_amg-s-63-e-performance_fq_oem_1_1280.avif"  
+                   class="carousel-image w-100"  
+                   alt="Luxury Car 1">
+              <!-- Overlay -->
+              <div class="image-overlay"></div>
+            </div>
+          </div>
+          
+          <!-- Content Column -->
+          <!-- <div class="carousel-content position-absolute top-0 start-0 h-100 w-100 d-flex align-items-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-8">
+                  <div class="hero-text-content p-4 p-lg-5">
+                    <h1 class="display-4 fw-bold mb-3 animate__animated animate__fadeInDown herohead">Premium Luxury Cars</h1>
+                    <p class="lead mb-4 animate__animated animate__fadeInUp animate__delay-1s heropara">Experience the ultimate in comfort and style with our exclusive fleet</p>
+                    <a href="#booking" class="btn btn-primary btn-lg px-5 py-3 animate__animated animate__fadeIn animate__delay-2s">Book Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      
+      <!-- Slide 2 -->
+      <div class="carousel-item h-100">
+        <div class="row h-100 g-0">
+          <div class="col-12 h-100">
+            <div class="carousel-image-container h-100 w-100 position-relative">
+              <img src="./assets/d662614-1024x640.jpg" 
+                   class="carousel-image w-100" 
+                   alt="Luxury Car 2">
+              <div class="image-overlay"></div>
+            </div>
+          </div>
+          
+          <!-- <div class="carousel-content position-absolute top-0 start-0 h-100 w-100 d-flex align-items-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-8">
+                  <div class="hero-text-content p-4 p-lg-5">
+                    <h1 class="display-4 fw-bold mb-3 animate__animated animate__fadeInDown herohead">24/7 Chauffeur Service</h1>
+                    <p class="lead mb-4 animate__animated animate__fadeInUp animate__delay-1s heropara">Professional drivers for business meetings, events, or special occasions</p>
+                    <a href="#services" class="btn btn-primary btn-lg px-5 py-3 animate__animated animate__fadeIn animate__delay-2s">Our Services</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      
+      <!-- Slide 3 -->
+      <div class="carousel-item h-100">
+        <div class="row h-100 g-0">
+          <div class="col-12 h-100">
+            <div class="carousel-image-container h-100 w-100 position-relative">
+              <img src="./assets/2025-mercedes-benz-glc-350e-front-angle-view-ak.webp" 
+                   class="carousel-image w-100" 
+                   alt="Luxury Car 3">
+              <div class="image-overlay"></div>
+            </div>
+          </div>
+<!--           
+          <div class="carousel-content position-absolute top-0 start-0 h-100 w-100 d-flex align-items-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-8">
+                  <div class="hero-text-content p-4 p-lg-5">
+                    <h1 class="display-4 fw-bold mb-3 animate__animated animate__fadeInDown herohead">Airport Transfers</h1>
+                    <p class="lead mb-4 animate__animated animate__fadeInUp animate__delay-1s heropara">Punctual, comfortable, and hassle-free airport transportation</p>
+                    <a href="#contact" class="btn btn-primary btn-lg px-5 py-3 animate__animated animate__fadeIn animate__delay-2s">Contact Us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      
+    </div>
+    
+    <!-- Carousel Indicators (Fixed Position) -->
+    <div class="carousel-indicators-container position-absolute bottom-0 start-50 translate-middle-x mb-4">
+      <div class="carousel-indicators bg-dark bg-opacity-25 p-2 rounded-pill">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+    
+    <!-- Carousel Controls (Fixed Position) -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    
+  </div>
+  
+</section>
+
+
+
+
+
+
+<!-- Booking -->
+
+<div class="booking mt-auto d-flex align-items-center pb-2 ">
+
+	<form action="" class="d-flex justify-content-between align-items-center container myform ">
+<div class="sec1 d-flex flex-column gap-2  ">
+	<label for="">Enter Pickup Location</label>
+	<input type="search" class="myinput" placeholder="Enter pickup location">
+</div>
+
+
+<div class="sec2 d-flex flex-column gap-2 ">
+	<label for="">Enter Drop-off Location</label>
+	<input type="search" class="myinput" placeholder="Enter Drop-off location">
+</div>
+
+<div class="sec3 d-flex flex-column  gap-2">
+	<label for="">Date & Time</label>
+	<input type="search" class="myinput" placeholder="Select date and time">
+</div>
+
+<div class="sec4 mt-auto">
+	<button class="Mybtn" >
+		Book Now
+	</button>
+</div>
+
+
+	</form>
+
+
+
+
+</div>
+
+
+	
+
+	
+    
+</div>
+
+
+<!-- services section -->
+
+<div class="services pt-5 pb-3 container">
+
+<h2 class="serviceHead1">OUR  <span class="serviceHead2"> SERVICES</span> </h2>
+
+<div id="cardCarousel2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+     <div class="carousel-item active">
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/2025_mercedes-benz_s-class_sedan_amg-s-63-e-performance_fq_oem_1_1280.avif" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Card 1</h5>
+              <p class="card-text">This is card one.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/96fc9342246951ad0f8814476c5fe6fc.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Card 2</h5>
+              <p class="card-text">This is card two.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/d662614-1024x640.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Card 3</h5>
+              <p class="card-text">This is card three.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div> 
+
+    <!-- Slide 2 -->
+     <div class="carousel-item">
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/DSC00332-scaled.webp" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Card 4</h5>
+              <p class="card-text">This is card four.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/003-2025-audi-s5.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Card 5</h5>
+              <p class="card-text">This is card five.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/2025-mercedes-benz-glc-350e-front-angle-view-ak.webp" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Card 6</h5>
+              <p class="card-text">This is card six.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div> 
+
+  <!-- CUSTOM PREVIOUS BUTTON -->
+<button class="carousel-control-prev custom-btn" type="button" data-bs-target="#cardCarousel2" data-bs-slide="prev">
+    <i class="fa-solid fa-circle-chevron-left"></i>
+  </button>
+
+  <!-- CUSTOM NEXT BUTTON -->
+<button class="carousel-control-next custom-btn" type="button" data-bs-target="#cardCarousel2" data-bs-slide="next">
+    <i class="fa-solid fa-circle-chevron-right"></i>
+  </button>
+
+</div>
+
+
+
+
+</div> 
+
+
+
+
+    <script src="./bootstrap-5.3.6-dist/js/bootstrap.min.js" ></script>
+    <script src="./app.js" ></script>
+</body>
+</html>
