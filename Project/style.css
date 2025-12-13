@@ -433,6 +433,15 @@ color: white ;
 	height: 100px;
 }
 
+.navbar-toggler-icon{
+	background-image: url("./assets/toggle.png");
+	
+}
+
+.navbar-toggler{
+	border: none;
+}
+
 /*********************************
 3.2 Logo
 *********************************/
@@ -976,6 +985,10 @@ font-size: 17px;
 
 /* Service section */
 
+.services{
+	padding: 70px 0px;
+}
+
 .serviceHead1{
 	color: black;
 	font-size: 50px;
@@ -1025,7 +1038,16 @@ font-size: 17px;
 
 
 /* apart section */
+.setUp{
+	padding: 30px 0px 50px 0px;
+	
+}
 
+.mycontainer{
+	
+	border-bottom: rgb(187, 186, 186) 2px solid;
+	padding-bottom: 40px;
+}
 
 .apartHead1{
 	color: black;
@@ -1054,7 +1076,9 @@ font-size: 17px;
 color: var(--icon);}
 
 /* Drive section */
-
+.drive{
+	padding-top: 40px;
+}
 
 .driveImg{
 	background-image: url("./assets/1-Mercedes-A-Class.jpg");
@@ -1236,9 +1260,36 @@ font-size: 17px;
 
 
 
+/* footer */
 
 
+.footer{
+	background-color: var(--nav1);
+	color: white;
+	font-size: 12px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid rgb(216, 213, 213);
+}
 
+.footHead h5{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.footContent li{
+	margin-bottom:8px ;
+}
+
+.footer2{
+	background-color: var(--nav1);
+
+	font-size: 12px;
+}
+
+.footer2 p{
+	color: white;
+}
 
 
 /* medai screens */
@@ -1295,3 +1346,14 @@ font-size: 17px;
 	}
 	
 } */
+
+@media (max-width:768px) { 
+	.main{
+		width: 100% !important;
+	}
+
+	.myinput {
+		width: 100%;
+	}
+	
+}
