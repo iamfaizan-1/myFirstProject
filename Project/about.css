@@ -1,10 +1,27 @@
 :root{
-    --nav1: #1F3A56;
-    --nav2: #004e92;
-	--btn: #f4b400;
---icon: #f4b400;
+    --nav1: #1A1A1A;
+    --nav2: #2D3436;
+	--btn: #636E72;
+--icon: #636E72;
 	--head: #0c0c0c;
 }
+ .nav-link{
+	padding-bottom: 2px;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	margin-left: 20px;
+	
+ }
+.nav-link:hover{
+	border-bottom: 1px solid white;
+color: white !important;
+transition: all ease 0.8s;
+}
+
+.user_box_login{
+	border-bottom: none !important;
+}
+
 
 .heroimg{
     /* background-image: url("./assets/1-Mercedes-A-Class.jpg") ; */
@@ -24,7 +41,7 @@ linear-gradient(135deg, rgba(35,37,38,0.6), rgba(65,67,69,0.6)),
 
 .heading1 h4{
     font-weight: bold;
-    color: var(--btn);
+    color: white;
 }
 
 .herocontent{
@@ -62,19 +79,35 @@ linear-gradient(135deg, rgba(35,37,38,0.6), rgba(65,67,69,0.6)),
     color: var(--head);
 }
 
-.Content2icon,.myicon2{
-    font-size: 25px;
+.Content2icon{
+    font-size: 20px;
+    background-color: var(--icon);
+    border-radius: 50%;
+     width: 50px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+/* .Content2icon i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+} */
 
 .myicon2{
+    font-size: 20px;
     background-color: var(--btn);
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
+    color: white;
 }
 
 .mycontent{
     background-color: var(--nav1);
+    border-radius: 13px;
 }
 
 
@@ -86,5 +119,9 @@ linear-gradient(135deg, rgba(35,37,38,0.6), rgba(65,67,69,0.6)),
         font-size: 40px;
         
     }
+     .footSec1,.footSec2,.footSec3{
+	border-bottom: 1px solid grey;
+	
+  }
    
 }

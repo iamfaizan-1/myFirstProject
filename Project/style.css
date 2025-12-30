@@ -8,10 +8,10 @@
 }
 
 :root{
-    --nav1: #1F3A56;
-    --nav2: #004e92;
-	--btn: #f4b400;
---icon: #f4b400;
+    --nav1: #1A1A1A;
+    --nav2: #2D3436;
+	--btn: #636E72;
+--icon: #636E72;
 	--head: #0c0c0c;
 }
 
@@ -56,7 +56,7 @@ p
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-p a
+/* p a
 {
 	display: inline;
 	position: relative;
@@ -84,7 +84,24 @@ p a:hover
 {
 	color: #FFFFFF;
 	background: #ffa07f;
+} */
+ .nav-link{
+	padding-bottom: 2px;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	margin-left: 20px;
+	
+ }
+.nav-link:hover{
+	border-bottom: 1px solid white;
+color: white !important;
+transition: all ease 0.8s;
 }
+
+.user_box_login{
+	border-bottom: none !important;
+}
+
 p a:hover::after
 {
 	opacity: 0.2;
@@ -343,10 +360,10 @@ section
 	padding-right: 10px;
 	line-height: 36px;
 }
-.social_list_item:hover a i
+/* .social_list_item:hover a i
 {
 	color: #fa9e1c;
-}
+} */
 .social_list_item a i
 {
 	font-size: 12px;
@@ -367,6 +384,7 @@ section
 }
 .user_box_link a
 {
+	text-decoration: none;
 	display: block;
 	font-size: 10px;
 	line-height: 36px;
@@ -376,7 +394,7 @@ section
 }
 .user_box_link a:hover
 {
-	color: #fa9e1c;
+	/* color: #fa9e1c; */
 }
 .user_box_login
 {
@@ -411,9 +429,7 @@ section
 .main_nav a {
 color: white ;
 }
-.main_nav a:hover{
-    color: #fa9e1b;
-}
+
 .navbar-toggler-icon{
     color: white !important
 }
@@ -956,7 +972,7 @@ padding-top: 10px;
 
 
 .booking{
-	background: linear-gradient(135deg, #000428, #004e92);
+	background: linear-gradient(135deg, #1A1A1A, #2D3436);
 	
 	font-weight: bold;
 	
@@ -1070,11 +1086,31 @@ font-size: 17px;
 }
 
 
+.icon i{
+	
+/* background-color: var(--icon);
+color: white;
+/* height: 50px;
+width: 50px; */
+/* border-radius: 50%;
+padding: 10px; */ 
+background-color: var(--icon);
+color: white;
+padding: 10px;
+border-radius: 50%;
+width: 70px;
+height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+}
+
 .icon{
-	font-size: 40px;
-
-color: var(--icon);}
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 /* Drive section */
 .drive{
 	padding-top: 40px;
@@ -1309,6 +1345,11 @@ font-size: 17px;
 	
 } */
 
+.footIcon i{
+	font-size: 18px;
+}
+
+
 
 
 
@@ -1336,6 +1377,11 @@ font-size: 17px;
 	justify-content: end !important;
  padding-bottom: 20px;
  padding: 20px;
+  }
+
+  .footSec1,.footSec2,.footSec3{
+	border-bottom: 1px solid grey;
+	
   }
 
   
