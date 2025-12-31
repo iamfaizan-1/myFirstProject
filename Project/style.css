@@ -13,6 +13,8 @@
 	--btn: #636E72;
 --icon: #636E72;
 	--head: #0c0c0c;
+
+	--button: black;
 }
 
 
@@ -60,11 +62,22 @@ p
 .Mybtn{
 	padding: 14px 50px;
 	border: none;
-	color: white;
-	background-color: var(--btn);
+	color: black;
+	background-color: white;
 border-radius: 5px;
 	font-weight: bold;
 font-size: 17px;
+}
+.drivebtn  button{
+	padding: 14px 50px;
+	border: none;
+	color: white;
+	background-color: var(--button);
+border-radius: 5px;
+	font-weight: bold;
+font-size: 17px;
+
+
 }
 /* p a
 {
@@ -99,8 +112,11 @@ p a:hover
 	padding-bottom: 2px;
 	padding-right: 0px !important;
 	padding-left: 0px !important;
-	margin-left: 20px;
-	
+	margin-left: 25px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	/* letter-spacing: 0.8px; */
  }
 .nav-link:hover{
 	border-bottom: 1px solid white;
@@ -128,13 +144,14 @@ h1{font-size: 48px;}
 h2{font-size: 36px;}
 h3{font-size: 24px;}
 h4{font-size: 18px;}
-h5{font-size: 14px;}
+h5{font-size: 17px;}
 h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-transform: uppercase;
 }
 h1::selection, 
 h2::selection, 
@@ -343,6 +360,7 @@ section
 	opacity: 0;
 	height: 0px;
 }
+
 .phone
 {
 	display: inline-block;
@@ -737,6 +755,15 @@ color: white ;
 	border: solid 2px #FFFFFF;
 }
 
+.dropdown-item{
+	font-size: 13px;
+}
+
+.dropdown-item:active{
+	background-color: black !important;
+	color: white !important;
+}
+
 /*********************************
 5. Search
 *********************************/
@@ -1007,14 +1034,24 @@ color: white;
 	padding: 70px 0px;
 }
 
+.card-footer{
+	border: none;
+	background-color: white;
+}
+
+.card{
+	border: none;
+	border-radius: 0px;
+}
+
 .mybtn{
-	padding: 8px 20px;
+	padding: 12px 20px;
 	border: none;
 	color: white;
 	background-color: black;
 	border-radius: 5px;
 	font-weight: bold;
-font-size: 10px;
+font-size: 13px;
 }
 
 .card-title{
@@ -1072,7 +1109,7 @@ font-size: 10px;
 /* apart section */
 .setUp{
 	padding: 30px 0px 50px 0px;
-	
+	background-color: #F5F5F5;
 }
 
 .mycontainer{
@@ -1160,7 +1197,7 @@ linear-gradient(135deg, rgba(35,37,38,0.6), rgba(65,67,69,0.6)), url("./assets/1
 }
 
 
-.drivebtn button{
+/* .drivebtn button{
 padding: 14px 50px;
 	border: none;
 	color: white;
@@ -1168,14 +1205,19 @@ padding: 14px 50px;
 	border-radius: 25px;
 	font-weight: bold;
 font-size: 17px;
-}
+} */
 
 /* about section */
 
 .drivehead {
-	color: var(--head);
+	color: white;
 	font-size: 40px;
 	font-weight: bold;
+}
+
+.About{
+	background-color: #F5F5F5;
+	margin-top: 50px;
 }
 
 /* Contact Form */
@@ -1183,6 +1225,11 @@ font-size: 17px;
 .contact
 {
 	width: 100%;
+	
+    margin-bottom: 120px ;
+    margin-top: 70px;
+
+
 	
 }
 .contact_background

@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="./about.css">
 </head>
 <body>
-   <header class="header">
+  
+	<header class="header">
 
 		<!-- Top Bar -->
 
@@ -43,7 +44,7 @@
 
 <nav class="navbar  main_nav navbar-expand-lg  navbar-light">
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="./index.html">
         <img src="https://thetaxipoint.co.uk/wp-content/uploads/2024/03/Taxipoint-Yellow-logo.png"   width="150" height="40"  alt="">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,14 +60,24 @@
           <a class="nav-link" aria-current="page" href="./about.html">About Us</a>
         </li>
 
-         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="./services.html">Services</a>
+         <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item text-dark" href="./cruise_port_service.html">Cruise Port Transfers</a></li>
+            <li><a class="dropdown-item text-dark" href="#">Sightseeing Tours</a></li>
+            <li><a class="dropdown-item text-dark" href="#">Station Transfer </a></li>
+            <li><a class="dropdown-item text-dark" href="#">Station Transfer </a></li>
+          </ul>
         </li>
 
          <li class="nav-item">
           <a class="nav-link" aria-current="page" href="./contact.html">Contact Us</a>
         </li>
-       
+       <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="./drive.html">Drive</a>
+        </li>
         
       </ul>
       <form class="d-flex nav-form" role="search">
@@ -114,7 +125,7 @@ ABOUT US
 
 <div class="cardsection row">
 
-<div class="col-12 col-lg-6 pb-4">
+<div class="col-12 col-lg-6 pb-4 mb-md-4 mb-lg-0">
 
 <div class="cardcontent pb-3">
    
@@ -194,7 +205,7 @@ ABOUT US
 
 <div class="row">
 
-<div class="col-12 col-md-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
+<div class="col-12 col-md-6 col-lg-4 mb-5 d-flex flex-column align-items-center">
   <div class="myicon2 mb-2 d-flex justify-content-center align-items-center">
     <i class="fa-regular fa-user"></i>
   </div>
@@ -206,7 +217,7 @@ ABOUT US
   </div>
 </div>
 
-<div class="col-12 col-md-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
+<div class="col-12 col-md-6 col-lg-4 mb-5 d-flex flex-column align-items-center">
   <div class="myicon2 mb-2 d-flex justify-content-center align-items-center">
     <i class="fa-regular fa-user"></i>
   </div>
@@ -218,7 +229,7 @@ ABOUT US
   </div>
 </div>
 
-<div class="col-12 col-md-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
+<div class="col-12 col-md-6 col-lg-4 mb-5 d-flex flex-column align-items-center">
   <div class="myicon2 mb-2 d-flex justify-content-center align-items-center">
     <i class="fa-regular fa-user"></i>
   </div>
@@ -230,7 +241,7 @@ ABOUT US
   </div>
 </div>
 
-<div class="col-12 col-md-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
+<div class="col-12 col-md-6 col-lg-4 mb-5 d-flex flex-column align-items-center">
   <div class="myicon2 mb-2 d-flex justify-content-center align-items-center">
     <i class="fa-regular fa-user"></i>
   </div>
@@ -242,7 +253,7 @@ ABOUT US
   </div>
 </div>
 
-<div class="col-12 col-md-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
+<div class="col-12 col-md-6 col-lg-4 mb-5 d-flex flex-column align-items-center">
   <div class="myicon2 mb-2 d-flex justify-content-center align-items-center">
     <i class="fa-regular fa-user"></i>
   </div>
@@ -254,7 +265,7 @@ ABOUT US
   </div>
 </div>
 
-<div class="col-12 col-md-6 col-lg-4  mb-4 d-flex flex-column align-items-center">
+<div class="col-12 col-md-6 col-lg-4  mb-5 d-flex flex-column align-items-center">
   <div class="myicon2 d-flex justify-content-center align-items-center mb-2">
     <i class="fa-regular fa-user"></i>
   </div>
@@ -289,9 +300,11 @@ ABOUT US
 
 <div class="row">
 
-<div class="footSec1 mb-3 pb-1 col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-start gap-2">
+<div class="footSec1 col-12 col-md-6 col-lg-4 d-flex flex-column mb-3 pb-1 justify-content-start gap-2">
   <div class="footHead"> 
-  <h5>About Us</h5>  
+  <a href="./about.html" class="text-decoration-none text-light">
+       <h5>ABOUT US</h5>
+     </a> 
   </div>
   <div class="footContent">
     Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
@@ -303,33 +316,43 @@ ABOUT US
 <i class="fa-brands fa-linkedin"></i>
   </div>
 </div>
-<div class="footSec2 mb-3 pb-1 col-12 col-md-6 col-lg-2 d-flex flex-column justify-content-start gap-2">
+<div class="footSec2 col-12 col-md-6 col-lg-2 d-flex mb-3 pb-1 flex-column justify-content-start gap-2">
   <div class="footHead">
     <h5>Pages</h5>
   </div>
   <div class="footContent">
     <ul  class="ps-0">
       <li>Blog</li>
-      <li>About</li>
-      <li>Contact</li>
+    <a href="./about.html" class="text-decoration-none text-light">
+       <li  >About</li>
+     </a>
+     <a href="./contact.html" class="text-decoration-none text-light">
+       <li  >Contact</li>
+     </a>
     </ul>
   </div>
 </div>
-<div class="footsec3 mb-3 pb-1 col-12 col-md-6 col-lg-2 d-flex flex-column justify-content-start gap-2">
+<div class="footsec3 col-12 col-md-6 col-lg-2 d-flex mb-3 pb-1 flex-column justify-content-start gap-2">
   <div class="footHead">
     <h5>Resources</h5>
   </div>
   <div class="footContent">
     <ul class="ps-0">
       <li>Blog</li>
-      <li>About</li>
-      <li>Contact</li>
+     <a href="./about.html" class="text-decoration-none text-light">
+       <li  >About</li>
+     </a>
+     <a href="./contact.html" class="text-decoration-none text-light">
+       <li  >Contact</li>
+     </a>
     </ul>
   </div>
 </div>
-<div class="footSec4 col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-start gap-2">
+<div class="footSec4 col-12 col-md-6 col-lg-4 d-flex mb-3 pb-1 flex-column justify-content-start gap-2">
   <div class="footHead">
-    <h5>Contact</h5>
+    <a href="./contact.html" class="text-decoration-none text-light">
+      <h5>  Contact </h5>
+     </a>
   </div>
   <div class="footContent">
     <ul class="ps-0">
@@ -353,11 +376,16 @@ ABOUT US
 
 </div>
 
+<div class="footer2 d-flex justify-content-center">
+<p class="m-0 pt-5 pb-5">Copyright 2025</p>
+
+</div>
 
 
 
+
+
+ <script src="./bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js" ></script>
 <script src="./app.js" ></script>
-<script src="./bootstrap-5.3.6-dist/js/bootstrap.min.js" ></script>
-
 </body>
 </html>
