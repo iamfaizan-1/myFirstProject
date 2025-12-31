@@ -1,0 +1,127 @@
+:root{
+    --nav1: #1A1A1A;
+    --nav2: #2D3436;
+	--btn: #636E72;
+--icon: #636E72;
+	--head: #0c0c0c;
+}
+ .nav-link{
+	padding-bottom: 2px;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	margin-left: 20px;
+	
+ }
+.nav-link:hover{
+	border-bottom: 1px solid white;
+color: white !important;
+transition: all ease 0.8s;
+}
+
+.user_box_login{
+	border-bottom: none !important;
+}
+
+
+.heroimg{
+    /* background-image: url("./assets/1-Mercedes-A-Class.jpg") ; */
+    background:
+linear-gradient(135deg, rgba(35,37,38,0.6), rgba(65,67,69,0.6)),
+    url("./assets/contact.jpg");
+    height: 650px;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.heading h1{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.heading1 h4{
+    font-weight: bold;
+    color: white;
+}
+
+.herocontent{
+    width: 100%;
+    
+  
+    /* padding: 20px ; */
+}
+
+
+.button2{
+    width: 160px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.icon{
+    font-size: 10px;
+}
+
+
+/* section 1 */
+
+.mycontainer{
+    padding-top: 80px;
+}
+
+
+/* content2 */
+
+.content2Head{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--head);
+}
+
+.Content2icon{
+    font-size: 20px;
+    background-color: var(--icon);
+    border-radius: 50%;
+     width: 50px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .Content2icon i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+} */
+
+.myicon2{
+    font-size: 20px;
+    background-color: var(--btn);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    color: white;
+}
+
+.mycontent{
+    background-color: var(--nav1);
+    border-radius: 13px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    
+    .heading h1{
+        font-size: 40px;
+        
+    }
+     .footSec1,.footSec2,.footSec3{
+	border-bottom: 1px solid grey;
+	
+  }
+   
+}
