@@ -90,11 +90,11 @@ linear-gradient(135deg, rgba(35,37,38,0.6), rgba(65,67,69,0.6)),
     justify-content: center;
     align-items: center;
 }
-/* .Content2icon i{
+.Content2icon i{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-} */
+}
 
 .myicon2{
     font-size: 20px;
@@ -110,8 +110,25 @@ linear-gradient(135deg, rgba(35,37,38,0.6), rgba(65,67,69,0.6)),
     border-radius: 13px;
 }
 
+.Sec1Para{
+    font-size: large;
+}
 
 
+/* contact us */
+
+.contact-us{
+    color: white;
+}
+
+
+
+@media (max-width:996px) {
+    .nav-link:hover{
+    border-bottom: none;
+    color: grey!important;
+  }
+}
 
 @media (max-width: 768px) {
     
@@ -123,5 +140,10 @@ linear-gradient(135deg, rgba(35,37,38,0.6), rgba(65,67,69,0.6)),
 	border-bottom: 1px solid grey;
 	
   }
+
+  
+
+
    
 }
+

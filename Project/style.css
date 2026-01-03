@@ -59,6 +59,10 @@ p
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
+button:hover{
+	opacity:0.8
+}
+
 .Mybtn{
 	padding: 14px 50px;
 	border: none;
@@ -348,6 +352,13 @@ section
 
 .social_list{
     color: white;
+	
+}
+.social_list i{
+	margin-left: 25px;
+}
+.social_list i:hover{
+	opacity: 0.8;
 }
 
 .user_box{
@@ -1164,10 +1175,20 @@ height: 70px;
 	align-items: center;
 	justify-content: center;
 }
+
+.card-1{
+	border-radius: 15px;
+}
+
+.apart-cards{
+	
+	grid-template-columns: 1fr 1fr 1fr;
+}
 /* Drive section */
 .drive{
 	padding-top: 40px;
 }
+
 
 .driveImg{
 	 background:
@@ -1305,6 +1326,7 @@ font-size: 17px;
 }
 .form_submit_button
 {
+	border-radius: 5px;
 	font-size: 13px;
 	font-weight: 700;
 	color: #fff;
@@ -1374,7 +1396,10 @@ font-size: 17px;
 	color: white;
 	font-size: 12px;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	/* padding-bottom: 25px; */
+
+}
+.footContainer{
 	border-bottom: 1px solid rgb(216, 213, 213);
 }
 
@@ -1385,6 +1410,9 @@ font-size: 17px;
 }
 .footContent li{
 	margin-bottom:8px ;
+}
+.footContent li:hover{
+opacity: 0.8;
 }
 
 .footer2{
@@ -1413,6 +1441,13 @@ font-size: 17px;
 }
 
 
+@media (max-width:996px) {
+    .nav-link:hover{
+    border-bottom: none;
+    color: grey!important;
+  }
+  
+}
 
 
 
@@ -1448,6 +1483,12 @@ font-size: 17px;
   }
 
   
+.apart-cards{
+	
+	grid-template-columns: 1fr 1fr!important;
+}
+
+  
 }
 
 
@@ -1477,4 +1518,16 @@ font-size: 17px;
 		width: 100%;
 	}
 	
+}
+
+@media (max-width:576px) {
+
+	.social_list{
+		display: none;
+	}
+	.apart-cards{
+	
+	grid-template-columns: 1fr !important;
+}
+
 }
