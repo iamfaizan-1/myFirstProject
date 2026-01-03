@@ -27,10 +27,10 @@ transition: all ease 0.8s;
    
 
 
- background: linear-gradient(135deg, rgba(35,37,38,0.6), rgba(65,67,69,0.6)),
-    url("./assets/1-Mercedes-A-Class.jpg");
+ background-image: 
+    url("./assets/ivan-shimko-tCp2K2sYpFg-unsplash.jpg");
     height: 650px;
-    background-position:center center;
+    background-position:top center;
     background-size: cover;
     
 }
@@ -146,8 +146,50 @@ text-transform: uppercase;
 .card-1{
     border-radius: 15px;
 }
+.card-1:hover{
+    
+    background-color: var(--nav2)!important;
+    transition: all 0.5s ease;
+    color: white !important;
+}
+
+/* airport container */
 
 
+.airport-container2,.airport-container4{
+    background-color: #F5F5F5;
+}
+.airport-container1,.airport-container3,.airport-container4,.airport-container2{
+    padding-bottom: 70px;
+}
+
+.drivehead h2{
+    font-size: 35px;
+    text-transform: capitalize;
+    
+
+}
+
+.editPara{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--nav1);
+}
+.imgsection img{
+    border-radius: 20px;
+}
+
+
+
+
+
+@media (max-width:996px) {
+    .nav-link:hover{
+    border-bottom: none;
+    color: grey!important;
+  }
+  
+}
 
 @media (max-width: 768px) {
     
@@ -162,6 +204,18 @@ text-transform: uppercase;
   .airport-cards{
     display: grid !important;
     grid-template-columns: 1fr 1fr;
+  }
+  .herobtn{
+font-size: 13px;
+padding: 10px 20px;
+width: 100%;
+  }
+  .herocontent{
+    width: 100% !important;
+    text-align: center;
+  }
+  .heroimg{
+    justify-content: end!important;
   }
    
 }
